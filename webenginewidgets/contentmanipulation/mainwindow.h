@@ -82,7 +82,7 @@ protected slots:
 private:
     QString jQuery;
     QWebEngineView *view;
-    QLineEdit *locationEdit;
+    QLineEdit *locationEdit; // url 输入框
     QAction *rotateAction;
     int progress;
 };
